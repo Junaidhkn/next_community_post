@@ -2,7 +2,7 @@
 
 import { signIn } from 'next-auth/react';
 
-const login = () => {
+const Login = () => {
 	return (
 		<li className='list-none'>
 			<button
@@ -14,4 +14,4 @@ const login = () => {
 	);
 };
 
-export default login;
+export default Login;
