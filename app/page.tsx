@@ -2,7 +2,7 @@
 
 import Post from './Post';
 import AddPost from './AddPost';
-import { useQuery } from 'react-query';
+import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
 import { PostsType } from './types/Posts';
 
